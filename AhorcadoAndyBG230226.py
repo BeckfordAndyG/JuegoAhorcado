@@ -5,7 +5,7 @@ vidas = 6
 
 palabras = [
     "tenge", "tis", "plinplanta", "moltres", "piplup",
-    "invitamemarito", "balatrito", "supercalifragilisticoespialidoso"
+    "invitamemarito", "balatrito", "supercalifragilisticoespialidoso", "montidonty", "electricity", "graciasfabiporenseñarmescratch"
 ]
 
 palabra_juego = random.choice(palabras)
@@ -19,7 +19,7 @@ print(" ".join(progreso))
 
 while juega and vidas > 0:
 
-    intento = input("Escribe una letra: ").lower()
+    intento = input("\n Escribe una letra: ").lower()
 
  
     if len(intento) != 1 or not intento.isalpha():
