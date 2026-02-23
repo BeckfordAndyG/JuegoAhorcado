@@ -21,13 +21,13 @@ while juega and vidas > 0:
 
     intento = input("\n Escribe una letra: ").lower()
 
- 
+ #Única IA
     if len(intento) != 1 or not intento.isalpha():
         print("Ingresa UNA letra.")
         continue
 
     letras_usadas.append(intento)
-
+#Hasta aquí
     if intento in letras:
         print("¡Correcto!")
 
